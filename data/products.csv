@@ -1,0 +1,99 @@
+Item,Item_EN,Category,Price
+Steak de boeuf,Beef steak,Viandes,18.99
+Saucisses,Sausages,Viandes,7.49
+Poitrine de poulet,Chicken breast,Viandes,12.99
+Bacon,Bacon,Viandes,6.99
+Saumon frais,Fresh salmon,Poissons,16.49
+Crevettes,Shrimp,Poissons,14.99
+Thon en conserve,Canned tuna,Poissons,2.49
+Charbon de bois,Charcoal,Épicerie,11.99
+Pain à hamburger,Burger buns,Boulangerie,3.99
+Ketchup,Ketchup,Épicerie,3.49
+Moutarde de Dijon,Dijon mustard,Épicerie,4.29
+Relish,Relish,Épicerie,3.19
+Pâtes alimentaires,Pasta,Épicerie,2.49
+Sauce tomate,Tomato sauce,Épicerie,3.79
+Parmesan râpé,Grated parmesan,Fromages,6.49
+Huile d'olive,Olive oil,Épicerie,12.99
+Riz basmati,Basmati rice,Épicerie,5.49
+Céréales,Cereal,Épicerie,5.99
+Beurre d'arachide,Peanut butter,Épicerie,4.99
+Confiture de fraises,Strawberry jam,Épicerie,4.49
+Sirop d'érable,Maple syrup,Épicerie,13.99
+Farine tout usage,All-purpose flour,Épicerie,4.29
+Sucre blanc,White sugar,Épicerie,3.99
+Sauce soya,Soy sauce,Épicerie,3.89
+Riz à sushi,Sushi rice,Épicerie,6.99
+Algues nori,Nori seaweed,Épicerie,5.49
+Gingembre mariné,Pickled ginger,Épicerie,3.99
+Wasabi,Wasabi,Épicerie,4.49
+Sauce BBQ,BBQ sauce,Épicerie,4.19
+Croustilles,Potato chips,Collations,4.49
+Salsa,Salsa,Collations,4.29
+Croustilles de maïs,Tortilla chips,Collations,4.99
+Bretzels,Pretzels,Collations,3.79
+Chocolat noir,Dark chocolate,Collations,4.99
+Biscuits,Cookies,Collations,3.99
+Noix mélangées,Mixed nuts,Collations,8.99
+Maïs soufflé,Popcorn,Collations,3.49
+Lait 2%,2% milk,Produits laitiers,4.79
+Lait entier,Whole milk,Produits laitiers,4.89
+Beurre,Butter,Produits laitiers,6.49
+Crème 35%,35% cream,Produits laitiers,4.99
+Yogourt grec,Greek yogurt,Produits laitiers,5.49
+Fromage cheddar,Cheddar cheese,Fromages,7.99
+Fromage en grains,Cheese curds,Fromages,8.49
+Fromage suisse,Swiss cheese,Fromages,9.49
+Fromage à raclette,Raclette cheese,Fromages,14.99
+Oeufs,Eggs,Produits laitiers,5.29
+Pain tranché,Sliced bread,Boulangerie,3.49
+Baguette,Baguette,Boulangerie,2.99
+Croissants,Croissants,Boulangerie,5.99
+Bagels,Bagels,Boulangerie,4.49
+Tortillas,Tortillas,Boulangerie,4.29
+Bananes,Bananas,Fruits et légumes,2.19
+Pommes,Apples,Fruits et légumes,4.99
+Laitue romaine,Romaine lettuce,Fruits et légumes,3.49
+Tomates,Tomatoes,Fruits et légumes,4.29
+Concombre,Cucumber,Fruits et légumes,1.99
+Oignons,Onions,Fruits et légumes,3.29
+Ail,Garlic,Fruits et légumes,1.49
+Carottes,Carrots,Fruits et légumes,2.99
+Pommes de terre,Potatoes,Fruits et légumes,5.99
+Avocat,Avocado,Fruits et légumes,2.49
+Citron,Lemon,Fruits et légumes,1.29
+Champignons,Mushrooms,Fruits et légumes,3.99
+Poivron rouge,Red pepper,Fruits et légumes,2.79
+Bière,Beer,Boissons,14.99
+Vin rouge,Red wine,Boissons,17.99
+Vin blanc,White wine,Boissons,16.99
+Café moulu,Ground coffee,Boissons,11.99
+Thé vert,Green tea,Boissons,5.99
+Jus d'orange,Orange juice,Boissons,4.99
+Eau pétillante,Sparkling water,Boissons,3.99
+Boisson gazeuse,Soft drink,Boissons,5.49
+Cidre de glace,Ice cider,Boissons,24.99
+Pizza surgelée,Frozen pizza,Surgelés,7.99
+Frites surgelées,Frozen fries,Surgelés,4.99
+Crème glacée,Ice cream,Surgelés,6.99
+Petits pois surgelés,Frozen peas,Surgelés,2.99
+Couches,Diapers,Bébé,32.99
+Lingettes pour bébé,Baby wipes,Bébé,7.99
+Purée pour bébé,Baby food,Bébé,1.99
+Lait maternisé,Baby formula,Bébé,38.99
+Sac réutilisable,Reusable bag,Maison,1.49
+Papier essuie-tout,Paper towels,Maison,8.99
+Savon à vaisselle,Dish soap,Maison,4.49
+Papier hygiénique,Toilet paper,Maison,12.99
+Sacs à ordures,Garbage bags,Maison,7.49
+Détergent à lessive,Laundry detergent,Maison,14.99
+Huile de truffe,Truffle oil,Spécialités,29.99
+Safran,Saffron,Spécialités,24.99
+Caviar,Caviar,Spécialités,89.99
+Foie gras,Foie gras,Spécialités,44.99
+Vinaigre balsamique vieilli,Aged balsamic vinegar,Spécialités,34.99
+Bouillon à fondue,Fondue broth,Épicerie,6.49
+Cornichons,Pickles,Épicerie,4.29
+Charcuteries,Deli meats,Viandes,11.99
+Pain baguette rustique,Rustic baguette,Boulangerie,3.99
+Sauce à poutine,Poutine gravy,Épicerie,3.49

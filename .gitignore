@@ -1,0 +1,21 @@
+# Exclude raw unzipped 304 MB CSV and root duplicate of products.csv
+transactions.csv
+/products.csv
+
+# Exclude assignment prompt, personal study guides, and optional cloud/IDE files
+Final_Project_Boreal_Marche_Apriori.docx
+Notebook_01_Mining_Step_by_Step_Guide_For_Dummies.doc
+Notebook_01_Mining_Step_by_Step_Guide_For_Dummies.docx
+GOOGLE_CLOUD_DEPLOYMENT_GUIDE.md
+Dockerfile
+.dockerignore
+.vscode/
+
+# Exclude Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+build_notebook.py

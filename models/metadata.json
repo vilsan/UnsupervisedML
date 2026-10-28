@@ -1,0 +1,1139 @@
+{
+  "project": "Boréal Marché — Recommendation Engine",
+  "algorithm": "mlxtend.frequent_patterns.apriori",
+  "mining_date": "2026-10-25 22:22:57",
+  "dataset_metrics": {
+    "total_rows": 8379837,
+    "total_baskets": 1000000,
+    "total_products": 98,
+    "avg_basket_size": 8.38
+  },
+  "thresholds": {
+    "min_support": 0.01,
+    "min_confidence": 0.25,
+    "min_lift": 1.05,
+    "consequent_max_len": 1,
+    "low_memory": true
+  },
+  "rules_metrics": {
+    "frequent_itemsets_count": 2267,
+    "raw_rules_count_conf_025": 8770,
+    "single_consequent_rules_lift_gt_1": 3442,
+    "trivial_reusable_bag_consequent_rules_removed": 586,
+    "final_rules_count": 2856
+  },
+  "coverage": {
+    "recommendable_products_count": 57,
+    "recommendable_products_pct": 58.16,
+    "antecedent_products_count": 72,
+    "antecedent_products_pct": 73.47,
+    "products_in_any_rule_count": 72,
+    "products_in_any_rule_pct": 73.47,
+    "recommendable_products": [
+      "Ail",
+      "Algues nori",
+      "Avocat",
+      "Bacon",
+      "Bananes",
+      "Bière",
+      "Boisson gazeuse",
+      "Bouillon à fondue",
+      "Bretzels",
+      "Café moulu",
+      "Champignons",
+      "Charbon de bois",
+      "Charcuteries",
+      "Citron",
+      "Concombre",
+      "Cornichons",
+      "Couches",
+      "Croissants",
+      "Croustilles",
+      "Croustilles de maïs",
+      "Crème 35%",
+      "Farine tout usage",
+      "Frites surgelées",
+      "Fromage en grains",
+      "Fromage à raclette",
+      "Gingembre mariné",
+      "Huile d'olive",
+      "Jus d'orange",
+      "Ketchup",
+      "Lait entier",
+      "Lait maternisé",
+      "Laitue romaine",
+      "Lingettes pour bébé",
+      "Maïs soufflé",
+      "Oeufs",
+      "Pain baguette rustique",
+      "Pain à hamburger",
+      "Parmesan râpé",
+      "Poivron rouge",
+      "Pommes de terre",
+      "Purée pour bébé",
+      "Pâtes alimentaires",
+      "Relish",
+      "Riz à sushi",
+      "Salsa",
+      "Sauce BBQ",
+      "Sauce soya",
+      "Sauce tomate",
+      "Sauce à poutine",
+      "Saucisses",
+      "Saumon frais",
+      "Sirop d'érable",
+      "Steak de boeuf",
+      "Tomates",
+      "Vin blanc",
+      "Vin rouge",
+      "Wasabi"
+    ],
+    "never_recommended_products": [
+      "Bagels",
+      "Baguette",
+      "Beurre",
+      "Beurre d'arachide",
+      "Biscuits",
+      "Carottes",
+      "Caviar",
+      "Chocolat noir",
+      "Cidre de glace",
+      "Confiture de fraises",
+      "Crevettes",
+      "Crème glacée",
+      "Céréales",
+      "Détergent à lessive",
+      "Eau pétillante",
+      "Foie gras",
+      "Fromage cheddar",
+      "Fromage suisse",
+      "Huile de truffe",
+      "Lait 2%",
+      "Moutarde de Dijon",
+      "Noix mélangées",
+      "Oignons",
+      "Pain tranché",
+      "Papier essuie-tout",
+      "Papier hygiénique",
+      "Petits pois surgelés",
+      "Pizza surgelée",
+      "Poitrine de poulet",
+      "Pommes",
+      "Riz basmati",
+      "Sac réutilisable",
+      "Sacs à ordures",
+      "Safran",
+      "Savon à vaisselle",
+      "Sucre blanc",
+      "Thon en conserve",
+      "Thé vert",
+      "Tortillas",
+      "Vinaigre balsamique vieilli",
+      "Yogourt grec"
+    ],
+    "never_in_any_rule_products": [
+      "Bagels",
+      "Baguette",
+      "Carottes",
+      "Caviar",
+      "Chocolat noir",
+      "Cidre de glace",
+      "Confiture de fraises",
+      "Crème glacée",
+      "Détergent à lessive",
+      "Eau pétillante",
+      "Foie gras",
+      "Fromage suisse",
+      "Huile de truffe",
+      "Moutarde de Dijon",
+      "Pain tranché",
+      "Papier essuie-tout",
+      "Petits pois surgelés",
+      "Poitrine de poulet",
+      "Pommes",
+      "Riz basmati",
+      "Safran",
+      "Thon en conserve",
+      "Thé vert",
+      "Tortillas",
+      "Vinaigre balsamique vieilli",
+      "Yogourt grec"
+    ]
+  },
+  "popular_products": [
+    {
+      "item": "Sac réutilisable",
+      "item_en": "Reusable bag",
+      "category": "Maison",
+      "price": 1.49,
+      "basket_count": 900026,
+      "support": 0.900026,
+      "support_pct": 90.0
+    },
+    {
+      "item": "Biscuits",
+      "item_en": "Cookies",
+      "category": "Collations",
+      "price": 3.99,
+      "basket_count": 161439,
+      "support": 0.161439,
+      "support_pct": 16.14
+    },
+    {
+      "item": "Noix mélangées",
+      "item_en": "Mixed nuts",
+      "category": "Collations",
+      "price": 8.99,
+      "basket_count": 155189,
+      "support": 0.155189,
+      "support_pct": 15.52
+    },
+    {
+      "item": "Beurre d'arachide",
+      "item_en": "Peanut butter",
+      "category": "Épicerie",
+      "price": 4.99,
+      "basket_count": 153726,
+      "support": 0.153726,
+      "support_pct": 15.37
+    },
+    {
+      "item": "Bière",
+      "item_en": "Beer",
+      "category": "Boissons",
+      "price": 14.99,
+      "basket_count": 150468,
+      "support": 0.150468,
+      "support_pct": 15.05
+    },
+    {
+      "item": "Savon à vaisselle",
+      "item_en": "Dish soap",
+      "category": "Maison",
+      "price": 4.49,
+      "basket_count": 149820,
+      "support": 0.14982,
+      "support_pct": 14.98
+    },
+    {
+      "item": "Fromage cheddar",
+      "item_en": "Cheddar cheese",
+      "category": "Fromages",
+      "price": 7.99,
+      "basket_count": 143457,
+      "support": 0.143457,
+      "support_pct": 14.35
+    },
+    {
+      "item": "Charbon de bois",
+      "item_en": "Charcoal",
+      "category": "Épicerie",
+      "price": 11.99,
+      "basket_count": 140561,
+      "support": 0.140561,
+      "support_pct": 14.06
+    },
+    {
+      "item": "Papier hygiénique",
+      "item_en": "Toilet paper",
+      "category": "Maison",
+      "price": 12.99,
+      "basket_count": 139758,
+      "support": 0.139758,
+      "support_pct": 13.98
+    },
+    {
+      "item": "Céréales",
+      "item_en": "Cereal",
+      "category": "Épicerie",
+      "price": 5.99,
+      "basket_count": 139198,
+      "support": 0.139198,
+      "support_pct": 13.92
+    }
+  ],
+  "all_product_frequencies": [
+    {
+      "item": "Sac réutilisable",
+      "item_en": "Reusable bag",
+      "category": "Maison",
+      "price": 1.49,
+      "basket_count": 900026,
+      "support": 0.900026,
+      "support_pct": 90.0
+    },
+    {
+      "item": "Biscuits",
+      "item_en": "Cookies",
+      "category": "Collations",
+      "price": 3.99,
+      "basket_count": 161439,
+      "support": 0.161439,
+      "support_pct": 16.14
+    },
+    {
+      "item": "Noix mélangées",
+      "item_en": "Mixed nuts",
+      "category": "Collations",
+      "price": 8.99,
+      "basket_count": 155189,
+      "support": 0.155189,
+      "support_pct": 15.52
+    },
+    {
+      "item": "Beurre d'arachide",
+      "item_en": "Peanut butter",
+      "category": "Épicerie",
+      "price": 4.99,
+      "basket_count": 153726,
+      "support": 0.153726,
+      "support_pct": 15.37
+    },
+    {
+      "item": "Bière",
+      "item_en": "Beer",
+      "category": "Boissons",
+      "price": 14.99,
+      "basket_count": 150468,
+      "support": 0.150468,
+      "support_pct": 15.05
+    },
+    {
+      "item": "Savon à vaisselle",
+      "item_en": "Dish soap",
+      "category": "Maison",
+      "price": 4.49,
+      "basket_count": 149820,
+      "support": 0.14982,
+      "support_pct": 14.98
+    },
+    {
+      "item": "Fromage cheddar",
+      "item_en": "Cheddar cheese",
+      "category": "Fromages",
+      "price": 7.99,
+      "basket_count": 143457,
+      "support": 0.143457,
+      "support_pct": 14.35
+    },
+    {
+      "item": "Charbon de bois",
+      "item_en": "Charcoal",
+      "category": "Épicerie",
+      "price": 11.99,
+      "basket_count": 140561,
+      "support": 0.140561,
+      "support_pct": 14.06
+    },
+    {
+      "item": "Papier hygiénique",
+      "item_en": "Toilet paper",
+      "category": "Maison",
+      "price": 12.99,
+      "basket_count": 139758,
+      "support": 0.139758,
+      "support_pct": 13.98
+    },
+    {
+      "item": "Céréales",
+      "item_en": "Cereal",
+      "category": "Épicerie",
+      "price": 5.99,
+      "basket_count": 139198,
+      "support": 0.139198,
+      "support_pct": 13.92
+    },
+    {
+      "item": "Pâtes alimentaires",
+      "item_en": "Pasta",
+      "category": "Épicerie",
+      "price": 2.49,
+      "basket_count": 134353,
+      "support": 0.134353,
+      "support_pct": 13.44
+    },
+    {
+      "item": "Beurre",
+      "item_en": "Butter",
+      "category": "Produits laitiers",
+      "price": 6.49,
+      "basket_count": 134223,
+      "support": 0.134223,
+      "support_pct": 13.42
+    },
+    {
+      "item": "Café moulu",
+      "item_en": "Ground coffee",
+      "category": "Boissons",
+      "price": 11.99,
+      "basket_count": 125887,
+      "support": 0.125887,
+      "support_pct": 12.59
+    },
+    {
+      "item": "Oignons",
+      "item_en": "Onions",
+      "category": "Fruits et légumes",
+      "price": 3.29,
+      "basket_count": 122623,
+      "support": 0.122623,
+      "support_pct": 12.26
+    },
+    {
+      "item": "Sucre blanc",
+      "item_en": "White sugar",
+      "category": "Épicerie",
+      "price": 3.99,
+      "basket_count": 121167,
+      "support": 0.121167,
+      "support_pct": 12.12
+    },
+    {
+      "item": "Crevettes",
+      "item_en": "Shrimp",
+      "category": "Poissons",
+      "price": 14.99,
+      "basket_count": 118848,
+      "support": 0.118848,
+      "support_pct": 11.88
+    },
+    {
+      "item": "Lait 2%",
+      "item_en": "2% milk",
+      "category": "Produits laitiers",
+      "price": 4.79,
+      "basket_count": 118554,
+      "support": 0.118554,
+      "support_pct": 11.86
+    },
+    {
+      "item": "Sacs à ordures",
+      "item_en": "Garbage bags",
+      "category": "Maison",
+      "price": 7.49,
+      "basket_count": 114565,
+      "support": 0.114565,
+      "support_pct": 11.46
+    },
+    {
+      "item": "Pizza surgelée",
+      "item_en": "Frozen pizza",
+      "category": "Surgelés",
+      "price": 7.99,
+      "basket_count": 112911,
+      "support": 0.112911,
+      "support_pct": 11.29
+    },
+    {
+      "item": "Laitue romaine",
+      "item_en": "Romaine lettuce",
+      "category": "Fruits et légumes",
+      "price": 3.49,
+      "basket_count": 108670,
+      "support": 0.10867,
+      "support_pct": 10.87
+    },
+    {
+      "item": "Sauce tomate",
+      "item_en": "Tomato sauce",
+      "category": "Épicerie",
+      "price": 3.79,
+      "basket_count": 105996,
+      "support": 0.105996,
+      "support_pct": 10.6
+    },
+    {
+      "item": "Steak de boeuf",
+      "item_en": "Beef steak",
+      "category": "Viandes",
+      "price": 18.99,
+      "basket_count": 105492,
+      "support": 0.105492,
+      "support_pct": 10.55
+    },
+    {
+      "item": "Tortillas",
+      "item_en": "Tortillas",
+      "category": "Boulangerie",
+      "price": 4.29,
+      "basket_count": 103775,
+      "support": 0.103775,
+      "support_pct": 10.38
+    },
+    {
+      "item": "Yogourt grec",
+      "item_en": "Greek yogurt",
+      "category": "Produits laitiers",
+      "price": 5.49,
+      "basket_count": 102655,
+      "support": 0.102655,
+      "support_pct": 10.27
+    },
+    {
+      "item": "Pain à hamburger",
+      "item_en": "Burger buns",
+      "category": "Boulangerie",
+      "price": 3.99,
+      "basket_count": 100957,
+      "support": 0.100957,
+      "support_pct": 10.1
+    },
+    {
+      "item": "Thon en conserve",
+      "item_en": "Canned tuna",
+      "category": "Poissons",
+      "price": 2.49,
+      "basket_count": 95841,
+      "support": 0.095841,
+      "support_pct": 9.58
+    },
+    {
+      "item": "Oeufs",
+      "item_en": "Eggs",
+      "category": "Produits laitiers",
+      "price": 5.29,
+      "basket_count": 94717,
+      "support": 0.094717,
+      "support_pct": 9.47
+    },
+    {
+      "item": "Fromage suisse",
+      "item_en": "Swiss cheese",
+      "category": "Fromages",
+      "price": 9.49,
+      "basket_count": 93179,
+      "support": 0.093179,
+      "support_pct": 9.32
+    },
+    {
+      "item": "Thé vert",
+      "item_en": "Green tea",
+      "category": "Boissons",
+      "price": 5.99,
+      "basket_count": 92932,
+      "support": 0.092932,
+      "support_pct": 9.29
+    },
+    {
+      "item": "Parmesan râpé",
+      "item_en": "Grated parmesan",
+      "category": "Fromages",
+      "price": 6.49,
+      "basket_count": 92065,
+      "support": 0.092065,
+      "support_pct": 9.21
+    },
+    {
+      "item": "Crème glacée",
+      "item_en": "Ice cream",
+      "category": "Surgelés",
+      "price": 6.99,
+      "basket_count": 91824,
+      "support": 0.091824,
+      "support_pct": 9.18
+    },
+    {
+      "item": "Pommes",
+      "item_en": "Apples",
+      "category": "Fruits et légumes",
+      "price": 4.99,
+      "basket_count": 91337,
+      "support": 0.091337,
+      "support_pct": 9.13
+    },
+    {
+      "item": "Croustilles",
+      "item_en": "Potato chips",
+      "category": "Collations",
+      "price": 4.49,
+      "basket_count": 91312,
+      "support": 0.091312,
+      "support_pct": 9.13
+    },
+    {
+      "item": "Ketchup",
+      "item_en": "Ketchup",
+      "category": "Épicerie",
+      "price": 3.49,
+      "basket_count": 90830,
+      "support": 0.09083,
+      "support_pct": 9.08
+    },
+    {
+      "item": "Bacon",
+      "item_en": "Bacon",
+      "category": "Viandes",
+      "price": 6.99,
+      "basket_count": 85813,
+      "support": 0.085813,
+      "support_pct": 8.58
+    },
+    {
+      "item": "Ail",
+      "item_en": "Garlic",
+      "category": "Fruits et légumes",
+      "price": 1.49,
+      "basket_count": 84526,
+      "support": 0.084526,
+      "support_pct": 8.45
+    },
+    {
+      "item": "Saucisses",
+      "item_en": "Sausages",
+      "category": "Viandes",
+      "price": 7.49,
+      "basket_count": 84141,
+      "support": 0.084141,
+      "support_pct": 8.41
+    },
+    {
+      "item": "Couches",
+      "item_en": "Diapers",
+      "category": "Bébé",
+      "price": 32.99,
+      "basket_count": 83966,
+      "support": 0.083966,
+      "support_pct": 8.4
+    },
+    {
+      "item": "Riz à sushi",
+      "item_en": "Sushi rice",
+      "category": "Épicerie",
+      "price": 6.99,
+      "basket_count": 83645,
+      "support": 0.083645,
+      "support_pct": 8.36
+    },
+    {
+      "item": "Fromage en grains",
+      "item_en": "Cheese curds",
+      "category": "Fromages",
+      "price": 8.49,
+      "basket_count": 83468,
+      "support": 0.083468,
+      "support_pct": 8.35
+    },
+    {
+      "item": "Moutarde de Dijon",
+      "item_en": "Dijon mustard",
+      "category": "Épicerie",
+      "price": 4.29,
+      "basket_count": 82498,
+      "support": 0.082498,
+      "support_pct": 8.25
+    },
+    {
+      "item": "Eau pétillante",
+      "item_en": "Sparkling water",
+      "category": "Boissons",
+      "price": 3.99,
+      "basket_count": 82013,
+      "support": 0.082013,
+      "support_pct": 8.2
+    },
+    {
+      "item": "Tomates",
+      "item_en": "Tomatoes",
+      "category": "Fruits et légumes",
+      "price": 4.29,
+      "basket_count": 80954,
+      "support": 0.080954,
+      "support_pct": 8.1
+    },
+    {
+      "item": "Riz basmati",
+      "item_en": "Basmati rice",
+      "category": "Épicerie",
+      "price": 5.49,
+      "basket_count": 80268,
+      "support": 0.080268,
+      "support_pct": 8.03
+    },
+    {
+      "item": "Détergent à lessive",
+      "item_en": "Laundry detergent",
+      "category": "Maison",
+      "price": 14.99,
+      "basket_count": 79215,
+      "support": 0.079215,
+      "support_pct": 7.92
+    },
+    {
+      "item": "Pain tranché",
+      "item_en": "Sliced bread",
+      "category": "Boulangerie",
+      "price": 3.49,
+      "basket_count": 78791,
+      "support": 0.078791,
+      "support_pct": 7.88
+    },
+    {
+      "item": "Sauce BBQ",
+      "item_en": "BBQ sauce",
+      "category": "Épicerie",
+      "price": 4.19,
+      "basket_count": 75528,
+      "support": 0.075528,
+      "support_pct": 7.55
+    },
+    {
+      "item": "Sirop d'érable",
+      "item_en": "Maple syrup",
+      "category": "Épicerie",
+      "price": 13.99,
+      "basket_count": 74929,
+      "support": 0.074929,
+      "support_pct": 7.49
+    },
+    {
+      "item": "Croissants",
+      "item_en": "Croissants",
+      "category": "Boulangerie",
+      "price": 5.99,
+      "basket_count": 73193,
+      "support": 0.073193,
+      "support_pct": 7.32
+    },
+    {
+      "item": "Petits pois surgelés",
+      "item_en": "Frozen peas",
+      "category": "Surgelés",
+      "price": 2.99,
+      "basket_count": 72763,
+      "support": 0.072763,
+      "support_pct": 7.28
+    },
+    {
+      "item": "Chocolat noir",
+      "item_en": "Dark chocolate",
+      "category": "Collations",
+      "price": 4.99,
+      "basket_count": 72676,
+      "support": 0.072676,
+      "support_pct": 7.27
+    },
+    {
+      "item": "Lait entier",
+      "item_en": "Whole milk",
+      "category": "Produits laitiers",
+      "price": 4.89,
+      "basket_count": 70878,
+      "support": 0.070878,
+      "support_pct": 7.09
+    },
+    {
+      "item": "Lingettes pour bébé",
+      "item_en": "Baby wipes",
+      "category": "Bébé",
+      "price": 7.99,
+      "basket_count": 70159,
+      "support": 0.070159,
+      "support_pct": 7.02
+    },
+    {
+      "item": "Vin rouge",
+      "item_en": "Red wine",
+      "category": "Boissons",
+      "price": 17.99,
+      "basket_count": 69978,
+      "support": 0.069978,
+      "support_pct": 7.0
+    },
+    {
+      "item": "Concombre",
+      "item_en": "Cucumber",
+      "category": "Fruits et légumes",
+      "price": 1.99,
+      "basket_count": 69634,
+      "support": 0.069634,
+      "support_pct": 6.96
+    },
+    {
+      "item": "Baguette",
+      "item_en": "Baguette",
+      "category": "Boulangerie",
+      "price": 2.99,
+      "basket_count": 69400,
+      "support": 0.0694,
+      "support_pct": 6.94
+    },
+    {
+      "item": "Jus d'orange",
+      "item_en": "Orange juice",
+      "category": "Boissons",
+      "price": 4.99,
+      "basket_count": 68728,
+      "support": 0.068728,
+      "support_pct": 6.87
+    },
+    {
+      "item": "Fromage à raclette",
+      "item_en": "Raclette cheese",
+      "category": "Fromages",
+      "price": 14.99,
+      "basket_count": 68508,
+      "support": 0.068508,
+      "support_pct": 6.85
+    },
+    {
+      "item": "Algues nori",
+      "item_en": "Nori seaweed",
+      "category": "Épicerie",
+      "price": 5.49,
+      "basket_count": 68465,
+      "support": 0.068465,
+      "support_pct": 6.85
+    },
+    {
+      "item": "Frites surgelées",
+      "item_en": "Frozen fries",
+      "category": "Surgelés",
+      "price": 4.99,
+      "basket_count": 65994,
+      "support": 0.065994,
+      "support_pct": 6.6
+    },
+    {
+      "item": "Bagels",
+      "item_en": "Bagels",
+      "category": "Boulangerie",
+      "price": 4.49,
+      "basket_count": 62716,
+      "support": 0.062716,
+      "support_pct": 6.27
+    },
+    {
+      "item": "Sauce soya",
+      "item_en": "Soy sauce",
+      "category": "Épicerie",
+      "price": 3.89,
+      "basket_count": 60741,
+      "support": 0.060741,
+      "support_pct": 6.07
+    },
+    {
+      "item": "Sauce à poutine",
+      "item_en": "Poutine gravy",
+      "category": "Épicerie",
+      "price": 3.49,
+      "basket_count": 60427,
+      "support": 0.060427,
+      "support_pct": 6.04
+    },
+    {
+      "item": "Papier essuie-tout",
+      "item_en": "Paper towels",
+      "category": "Maison",
+      "price": 8.99,
+      "basket_count": 60049,
+      "support": 0.060049,
+      "support_pct": 6.0
+    },
+    {
+      "item": "Relish",
+      "item_en": "Relish",
+      "category": "Épicerie",
+      "price": 3.19,
+      "basket_count": 59112,
+      "support": 0.059112,
+      "support_pct": 5.91
+    },
+    {
+      "item": "Cidre de glace",
+      "item_en": "Ice cider",
+      "category": "Boissons",
+      "price": 24.99,
+      "basket_count": 58224,
+      "support": 0.058224,
+      "support_pct": 5.82
+    },
+    {
+      "item": "Champignons",
+      "item_en": "Mushrooms",
+      "category": "Fruits et légumes",
+      "price": 3.99,
+      "basket_count": 56148,
+      "support": 0.056148,
+      "support_pct": 5.61
+    },
+    {
+      "item": "Poitrine de poulet",
+      "item_en": "Chicken breast",
+      "category": "Viandes",
+      "price": 12.99,
+      "basket_count": 55945,
+      "support": 0.055945,
+      "support_pct": 5.59
+    },
+    {
+      "item": "Confiture de fraises",
+      "item_en": "Strawberry jam",
+      "category": "Épicerie",
+      "price": 4.49,
+      "basket_count": 55439,
+      "support": 0.055439,
+      "support_pct": 5.54
+    },
+    {
+      "item": "Purée pour bébé",
+      "item_en": "Baby food",
+      "category": "Bébé",
+      "price": 1.99,
+      "basket_count": 55308,
+      "support": 0.055308,
+      "support_pct": 5.53
+    },
+    {
+      "item": "Huile d'olive",
+      "item_en": "Olive oil",
+      "category": "Épicerie",
+      "price": 12.99,
+      "basket_count": 54567,
+      "support": 0.054567,
+      "support_pct": 5.46
+    },
+    {
+      "item": "Gingembre mariné",
+      "item_en": "Pickled ginger",
+      "category": "Épicerie",
+      "price": 3.99,
+      "basket_count": 52317,
+      "support": 0.052317,
+      "support_pct": 5.23
+    },
+    {
+      "item": "Wasabi",
+      "item_en": "Wasabi",
+      "category": "Épicerie",
+      "price": 4.49,
+      "basket_count": 49884,
+      "support": 0.049884,
+      "support_pct": 4.99
+    },
+    {
+      "item": "Poivron rouge",
+      "item_en": "Red pepper",
+      "category": "Fruits et légumes",
+      "price": 2.79,
+      "basket_count": 49564,
+      "support": 0.049564,
+      "support_pct": 4.96
+    },
+    {
+      "item": "Farine tout usage",
+      "item_en": "All-purpose flour",
+      "category": "Épicerie",
+      "price": 4.29,
+      "basket_count": 49093,
+      "support": 0.049093,
+      "support_pct": 4.91
+    },
+    {
+      "item": "Salsa",
+      "item_en": "Salsa",
+      "category": "Collations",
+      "price": 4.29,
+      "basket_count": 48692,
+      "support": 0.048692,
+      "support_pct": 4.87
+    },
+    {
+      "item": "Bouillon à fondue",
+      "item_en": "Fondue broth",
+      "category": "Épicerie",
+      "price": 6.49,
+      "basket_count": 48295,
+      "support": 0.048295,
+      "support_pct": 4.83
+    },
+    {
+      "item": "Croustilles de maïs",
+      "item_en": "Tortilla chips",
+      "category": "Collations",
+      "price": 4.99,
+      "basket_count": 47401,
+      "support": 0.047401,
+      "support_pct": 4.74
+    },
+    {
+      "item": "Saumon frais",
+      "item_en": "Fresh salmon",
+      "category": "Poissons",
+      "price": 16.49,
+      "basket_count": 47084,
+      "support": 0.047084,
+      "support_pct": 4.71
+    },
+    {
+      "item": "Charcuteries",
+      "item_en": "Deli meats",
+      "category": "Viandes",
+      "price": 11.99,
+      "basket_count": 46725,
+      "support": 0.046725,
+      "support_pct": 4.67
+    },
+    {
+      "item": "Cornichons",
+      "item_en": "Pickles",
+      "category": "Épicerie",
+      "price": 4.29,
+      "basket_count": 44409,
+      "support": 0.044409,
+      "support_pct": 4.44
+    },
+    {
+      "item": "Lait maternisé",
+      "item_en": "Baby formula",
+      "category": "Bébé",
+      "price": 38.99,
+      "basket_count": 44290,
+      "support": 0.04429,
+      "support_pct": 4.43
+    },
+    {
+      "item": "Avocat",
+      "item_en": "Avocado",
+      "category": "Fruits et légumes",
+      "price": 2.49,
+      "basket_count": 44275,
+      "support": 0.044275,
+      "support_pct": 4.43
+    },
+    {
+      "item": "Citron",
+      "item_en": "Lemon",
+      "category": "Fruits et légumes",
+      "price": 1.29,
+      "basket_count": 43935,
+      "support": 0.043935,
+      "support_pct": 4.39
+    },
+    {
+      "item": "Boisson gazeuse",
+      "item_en": "Soft drink",
+      "category": "Boissons",
+      "price": 5.49,
+      "basket_count": 42780,
+      "support": 0.04278,
+      "support_pct": 4.28
+    },
+    {
+      "item": "Pain baguette rustique",
+      "item_en": "Rustic baguette",
+      "category": "Boulangerie",
+      "price": 3.99,
+      "basket_count": 42219,
+      "support": 0.042219,
+      "support_pct": 4.22
+    },
+    {
+      "item": "Bretzels",
+      "item_en": "Pretzels",
+      "category": "Collations",
+      "price": 3.79,
+      "basket_count": 41301,
+      "support": 0.041301,
+      "support_pct": 4.13
+    },
+    {
+      "item": "Vin blanc",
+      "item_en": "White wine",
+      "category": "Boissons",
+      "price": 16.99,
+      "basket_count": 40080,
+      "support": 0.04008,
+      "support_pct": 4.01
+    },
+    {
+      "item": "Maïs soufflé",
+      "item_en": "Popcorn",
+      "category": "Collations",
+      "price": 3.49,
+      "basket_count": 38510,
+      "support": 0.03851,
+      "support_pct": 3.85
+    },
+    {
+      "item": "Pommes de terre",
+      "item_en": "Potatoes",
+      "category": "Fruits et légumes",
+      "price": 5.99,
+      "basket_count": 36940,
+      "support": 0.03694,
+      "support_pct": 3.69
+    },
+    {
+      "item": "Crème 35%",
+      "item_en": "35% cream",
+      "category": "Produits laitiers",
+      "price": 4.99,
+      "basket_count": 35713,
+      "support": 0.035713,
+      "support_pct": 3.57
+    },
+    {
+      "item": "Bananes",
+      "item_en": "Bananas",
+      "category": "Fruits et légumes",
+      "price": 2.19,
+      "basket_count": 33747,
+      "support": 0.033747,
+      "support_pct": 3.37
+    },
+    {
+      "item": "Carottes",
+      "item_en": "Carrots",
+      "category": "Fruits et légumes",
+      "price": 2.99,
+      "basket_count": 31441,
+      "support": 0.031441,
+      "support_pct": 3.14
+    },
+    {
+      "item": "Safran",
+      "item_en": "Saffron",
+      "category": "Spécialités",
+      "price": 24.99,
+      "basket_count": 818,
+      "support": 0.000818,
+      "support_pct": 0.08
+    },
+    {
+      "item": "Huile de truffe",
+      "item_en": "Truffle oil",
+      "category": "Spécialités",
+      "price": 29.99,
+      "basket_count": 817,
+      "support": 0.000817,
+      "support_pct": 0.08
+    },
+    {
+      "item": "Caviar",
+      "item_en": "Caviar",
+      "category": "Spécialités",
+      "price": 89.99,
+      "basket_count": 810,
+      "support": 0.00081,
+      "support_pct": 0.08
+    },
+    {
+      "item": "Vinaigre balsamique vieilli",
+      "item_en": "Aged balsamic vinegar",
+      "category": "Spécialités",
+      "price": 34.99,
+      "basket_count": 779,
+      "support": 0.000779,
+      "support_pct": 0.08
+    },
+    {
+      "item": "Foie gras",
+      "item_en": "Foie gras",
+      "category": "Spécialités",
+      "price": 44.99,
+      "basket_count": 756,
+      "support": 0.000756,
+      "support_pct": 0.08
+    }
+  ]
+}
